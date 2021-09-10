@@ -1,0 +1,32 @@
+// to find size
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i;
+	char c;
+	double d;
+	float f;
+	cout<<"size of int is "<<sizeof(i)<<"\n";
+	cout<<"size of char is "<<sizeof(c)<<"\n";
+	cout<<"size of double is "<<sizeof(d)<<"\n";
+	cout<<"size of float is "<<sizeof(f)<<"\n";
+	return 0;
+}
+
+//multiplication program
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a,b,c;
+	cout<<"Enter the first number: ";
+	cin>>a;
+	cout<<"Enter the second number: ";
+	cin>>b;
+	c=a*b;
+	cout<<"product of the numbers is: "<<c;
+	return 0;
+}
